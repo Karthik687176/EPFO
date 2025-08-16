@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WE THREE GROUPS - PF & Pension Services</title>
+  <meta name="description" content="We are a trusted company with 7+ years of expertise and 3000+ satisfied customers. Providing hassle-free PF & Pension services." />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #0a3d62, #3c6382);
+      color: white;
+      padding: 20px 10%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 {
+      font-size: 22px;
+      margin: 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: url("https://images.unsplash.com/photo-1521791136064-7986c2920216") no-repeat center/cover;
+      color: white;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    .hero h2 { font-size: 36px; margin-bottom: 10px; }
+    .hero p { font-size: 18px; }
+
+    section {
+      padding: 60px 10%;
+      text-align: center;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform .3s;
+    }
+    .card:hover { transform: translateY(-5px); }
+    .card i {
+      font-size: 28px;
+      color: #0a3d62;
+      margin-bottom: 10px;
+    }
+    footer {
+      background: #0a3d62;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    /* Floating Buttons */
+    .floating-icons {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      z-index: 999;
+    }
+    .floating-icons a {
+      width: 55px;
+      height: 55px;
+      background: #25D366;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 26px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      animation: pulse 2s infinite;
+      text-decoration: none;
+    }
+    .floating-icons a.call {
+      background: #007bff;
+    }
+    @keyframes fadeIn {
+      from {opacity:0; transform: translateY(20px);}
+      to {opacity:1; transform: translateY(0);}
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>WE THREE GROUPS</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>PF & Pension Services</h2>
+  <p>Trusted by 3000+ customers | ₹5 Crore+ PF & Pension assisted</p>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>We are a trusted company with 7+ years of expertise and 3000+ satisfied customers. We provide hassle-free PF and Pension services including claims, corrections, and updates. Your trust is our strength, and your satisfaction is our success.</p>
+  <div class="features">
+    <div class="card"><i class="fa-solid fa-award"></i><p>7+ Years of Expertise</p></div>
+    <div class="card"><i class="fa-solid fa-people-group"></i><p>3000+ Happy Customers</p></div>
+    <div class="card"><i class="fa-solid fa-indian-rupee-sign"></i><p>₹5 Crore+ PF Assisted</p></div>
+    <div class="card"><i class="fa-solid fa-file-circle-check"></i><p>Hassle-Free Support</p></div>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="features">
+    <div class="card"><i class="fa-solid fa-id-card"></i><p>UAN Activation</p></div>
+    <div class="card"><i class="fa-solid fa-user-pen"></i><p>KYC & Nominee Update</p></div>
+    <div class="card"><i class="fa-solid fa-hand-holding-dollar"></i><p>PF & Pension Claims</p></div>
+    <div class="card"><i class="fa-solid fa-shuffle"></i><p>Transfer & Merger</p></div>
+    <div class="card"><i class="fa-solid fa-user-gear"></i><p>Name & DOB Corrections</p></div>
+    <div class="card"><i class="fa-solid fa-mobile-screen"></i><p>Mobile Linking & Grievance</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>📞 Phone: <a href="tel:9833840279">+91 9833840279</a></p>
+  <p>📧 Email: <a href="mailto:wethreegroups2018@gmail.com">wethreegroups2018@gmail.com</a></p>
+</section>
+
+<footer>
+  <p>© 2025 WE THREE GROUPS | PF & Pension Services</p>
+</footer>
+
+<!-- Floating Icons -->
+<div class="floating-icons">
+  <a href="https://wa.me/919833840279" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  <a href="tel:9833840279" class="call"><i class="fa fa-phone"></i></a>
+</div>
+
+</body>
+</html>
